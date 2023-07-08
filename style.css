@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-div {
+  background: rgb(57, 0, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 350px;
+  padding: 30px 50px;
+  height: 500px;
+  border-radius: 1.4rem;
+}
+
+.header-div {
+  justify-content: center;
+  display: flex;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  color: aliceblue;
+}
+
+.main-div {
+  color: aliceblue;
+  font-size: 75px;
+}
+
+.main-end-div {
+  color: aliceblue;
+  opacity: 0.4;
+}
+.rate {
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+  background: linear-gradient(
+    0deg,
+    hsla(256, 72%, 46%, 0) 0%,
+    rgb(83, 45, 187) 100%
+  );
+  box-shadow: rgba(50, 50, 93, 0.23) 0px 0.1px 0.1px -1px inset,
+    rgba(0, 0, 0, 0) 0px 0.1px 0.1px -1px inset;
+  padding: 13px 20px;
+  border-radius: 50%;
+}
+
+.header-end-div {
+  color: aliceblue;
+  font-size: 1.7rem;
+}
+
+.left-txt {
+  display: flex;
+  align-items: center;
+}
+.desc-div {
+  color: aliceblue;
+  opacity: 0.85;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 380px;
+  height: 500px;
+  padding: 2rem;
+  padding-left: 4rem;
+  position: relative;
+  left: -2rem;
+  box-shadow: rgb(38, 57, 77, 0.3) 0px 10px 20px -10px;
+  border-radius: 1.4rem;
+  border-bottom-left-radius: 0;
+}
+
+.right-div-header {
+  font-size: 1.3rem;
+}
+
+.right-div-1 {
+  background-color: rgba(247, 185, 185, 0.15);
+  color: red;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 0.7rem;
+}
+
+.right-div-2 {
+  background-color: rgba(243, 238, 166, 0.15);
+  color: rgb(161, 161, 27);
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 0.7rem;
+}
+.right-div-3 {
+  background-color: rgba(162, 245, 137, 0.15);
+  color: rgb(52, 104, 4);
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 0.7rem;
+}
+.right-div-4 {
+  background-color: rgba(155, 162, 250, 0.15);
+  color: rgb(12, 14, 128);
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 0.7rem;
+}
+
+span {
+  color: black;
+  opacity: 0.5;
+}
+
+.percent {
+  color: black;
+}
+
+.btn-div {
+  background-color: rgb(54, 68, 92);
+  margin-top: 20px;
+  font-size: 1.1rem;
+  border-radius: 2.4rem;
+  color: aliceblue;
+  padding: 18px 30px;
+  text-align: center;
+}
